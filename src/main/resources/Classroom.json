@@ -1,0 +1,207 @@
+[
+  {
+    "name": "Classroom 6",
+    "capacity": 30,
+    "subjects": [
+      {
+        "name": "Art",
+        "type": "Workshop",
+        "professor": "Prof. Brown"
+      },
+      {
+        "name": "Science",
+        "type": "Lab",
+        "professor": "Prof. Johnson"
+      },
+      {
+        "name": "History",
+        "type": "Seminar",
+        "professor": "Dr. Williams"
+      },
+      {
+        "name": "Math",
+        "type": "Lecture",
+        "professor": "Dr. Smith"
+      }
+    ]
+  },
+  {
+    "name": "Classroom 8",
+    "capacity": 20,
+    "subjects": [
+      {
+        "name": "Science",
+        "type": "Lab",
+        "professor": "Prof. Johnson"
+      },
+      {
+        "name": "History",
+        "type": "Seminar",
+        "professor": "Dr. Williams"
+      }
+    ]
+  },
+  {
+    "name": "Classroom 7",
+    "capacity": 20,
+    "subjects": [
+      {
+        "name": "Science",
+        "type": "Lab",
+        "professor": "Prof. Johnson"
+      },
+      {
+        "name": "Art",
+        "type": "Workshop",
+        "professor": "Prof. Brown"
+      }
+    ]
+  },
+  {
+    "name": "Classroom 8",
+    "capacity": 50,
+    "subjects": [
+      {
+        "name": "Art",
+        "type": "Workshop",
+        "professor": "Prof. Brown"
+      },
+      {
+        "name": "Science",
+        "type": "Lab",
+        "professor": "Prof. Johnson"
+      },
+      {
+        "name": "Math",
+        "type": "Lecture",
+        "professor": "Dr. Smith"
+      }
+    ]
+  },
+  {
+    "name": "Classroom 6",
+    "capacity": 40,
+    "subjects": [
+      {
+        "name": "History",
+        "type": "Seminar",
+        "professor": "Dr. Williams"
+      },
+      {
+        "name": "Art",
+        "type": "Workshop",
+        "professor": "Prof. Brown"
+      },
+      {
+        "name": "Math",
+        "type": "Lecture",
+        "professor": "Dr. Smith"
+      }
+    ]
+  },
+  {
+    "name": "Classroom 12",
+    "capacity": 20,
+    "subjects": [
+      {
+        "name": "Math",
+        "type": "Lecture",
+        "professor": "Dr. Smith"
+      },
+      {
+        "name": "History",
+        "type": "Seminar",
+        "professor": "Dr. Williams"
+      },
+      {
+        "name": "Science",
+        "type": "Lab",
+        "professor": "Prof. Johnson"
+      },
+      {
+        "name": "Art",
+        "type": "Workshop",
+        "professor": "Prof. Brown"
+      }
+    ]
+  },
+  {
+    "name": "Classroom 9",
+    "capacity": 60,
+    "subjects": [
+      {
+        "name": "Art",
+        "type": "Workshop",
+        "professor": "Prof. Brown"
+      }
+    ]
+  },
+  {
+    "name": "Classroom 10",
+    "capacity": 50,
+    "subjects": [
+      {
+        "name": "Science",
+        "type": "Lab",
+        "professor": "Prof. Johnson"
+      },
+      {
+        "name": "Art",
+        "type": "Workshop",
+        "professor": "Prof. Brown"
+      },
+      {
+        "name": "History",
+        "type": "Seminar",
+        "professor": "Dr. Williams"
+      },
+      {
+        "name": "Math",
+        "type": "Lecture",
+        "professor": "Dr. Smith"
+      }
+    ]
+  },
+  {
+    "name": "Classroom 8",
+    "capacity": 40,
+    "subjects": [
+      {
+        "name": "Art",
+        "type": "Workshop",
+        "professor": "Prof. Brown"
+      },
+      {
+        "name": "Math",
+        "type": "Lecture",
+        "professor": "Dr. Smith"
+      },
+      {
+        "name": "Science",
+        "type": "Lab",
+        "professor": "Prof. Johnson"
+      },
+      {
+        "name": "History",
+        "type": "Seminar",
+        "professor": "Dr. Williams"
+      }
+    ]
+  },
+  {
+    "name": "Classroom 9",
+    "capacity": 50,
+    "subjects": [
+      {
+        "name": "Art",
+        "type": "Workshop",
+        "professor": "Prof. Brown"
+      },
+      {
+        "name": "Science",
+        "type": "Lab",
+        "professor": "Prof. Johnson"
+      }
+    ]
+  }
+]
