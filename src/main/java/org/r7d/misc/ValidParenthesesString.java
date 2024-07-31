@@ -5,9 +5,9 @@ import java.util.Stack;
 public class ValidParenthesesString {
 
     public static void main(String[] args) {
-        String[] sample = new String[]{"(******)))"};
+        String[] sample = new String[]{"(******)))","(*)","()((*)","(*", ")*"};
         for (String s : sample) {
-            System.out.println(s + " is " + checkValidString(s));
+            System.out.println(s + " is " + checkValidString_2(s));
         }
     }
 
@@ -35,13 +35,14 @@ public class ValidParenthesesString {
         for(int i=0;i<s.length();i++) {
             char c = s.charAt(i);
             if(c=='(') stack.push(c);
-            if(c=='*') asterickCount++;
-            if(!stack.isEmpty() && c==')') stack.pop();
-            if(stack.isEmpty() && c==')' && asterickCount>0) asterickCount--;
-
+            if(c=='*') asterickCount+=1;
+            if(stack.isEmpty() && c==')' && asterickCount<=0) return false;
+            else if(!stack.isEmpty() && c==')') stack.pop();
+            else if(stack.isEmpty() && c==')' && asterickCount>0) asterickCount-=1;
         }
-        if(stack.isEmpty() || (stack.size()==2 && stack.peek()=='*')) return true;
-        return false;
+//        System.out.println("Asterick count " + asterickCount);
+        if(stack.isEmpty()) return true;
+        return asterickCount - stack.size()  >= 0;
 
     }
 }
@@ -55,5 +56,6 @@ public class ValidParenthesesString {
 (*(())))
 (()***()(()) =>
 *())
+()(***
 
 */
