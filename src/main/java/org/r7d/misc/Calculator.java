@@ -1,5 +1,8 @@
 package org.r7d.misc;
 
+import java.util.*;
+import java.util.stream.Collectors;
+
 public class Calculator {
 
     public static void main(String[] args) {
@@ -9,6 +12,11 @@ public class Calculator {
     public static int calculate(String s) {
         int sum = 0;
         // Stack<Integer> s = new Stack();
+        Map<String, Integer> map2 = new HashMap<>();map2.put("",1);
+        String[] res = new String[];
+        Arrays.stream(res).filter(Objects::nonNull).toArray(String[]::new);
+
+        map2.keySet().stream().filter(i->i=="").map(Map.Entry::getValue).collect(Collectors.toList());
         int number = 0;
         int result = 0;
         int sign=1;

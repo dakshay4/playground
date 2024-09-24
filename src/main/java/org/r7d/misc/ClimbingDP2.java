@@ -1,10 +1,15 @@
 package org.r7d.misc;
 
+import java.util.Arrays;
+import java.util.Stack;
+import java.util.stream.Collectors;
+
 public class ClimbingDP2 {
 
     public static void main(String[] args) {
         minCostClimbingStairs(new int[]{1,100,1,1,1,100,1,1,100,1});
         //                              0  1  2 3 4  5  6 7  8  9
+
     }
 
     static int[] step;

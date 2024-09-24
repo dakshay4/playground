@@ -5,12 +5,14 @@ import java.util.Stack;
 public class ValidParenthesesString {
 
     public static void main(String[] args) {
-        String[] sample = new String[]{"(******)))","(*)","()((*)","(*", ")*"};
+        String[] sample = new String[]{
+//                "(******)))","(*)","()((*)","(*", ")*",
+                "(((((*(()((((*((**(((()()*)()()()*((((**)())*)*)))))))(())(()))())((*()()(((()((()*(())*(()**)()(())"};
         for (String s : sample) {
             System.out.println(s + " is " + checkValidString_2(s));
         }
     }
-
+    
     public static boolean checkValidString(String s) {
         Stack<Character> stack= new Stack<>();
         for(int i=0;i<s.length();i++) {
