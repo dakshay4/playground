@@ -17,7 +17,12 @@ public class LruCache {
     public LruCache( int capacity) {
         this.cache = new ConcurrentHashMap<>();
         this.capacity = capacity;
-        this.timeLruCache = new PriorityQueue<>(Comparator.comparing(CacheValue::getExpiryEpoch));
+        this.timeLruCache = new PriorityQueue<>(new Comparator<CacheValue>() {
+            @Override
+            public int compare(CacheValue o1, CacheValue o2) {
+                return 0;
+            }
+        });
     }
 
 

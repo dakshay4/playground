@@ -13,10 +13,9 @@ public class Calculator {
         int sum = 0;
         // Stack<Integer> s = new Stack();
         Map<String, Integer> map2 = new HashMap<>();map2.put("",1);
-        String[] res = new String[];
+        String[] res = new String[10];
         Arrays.stream(res).filter(Objects::nonNull).toArray(String[]::new);
 
-        map2.keySet().stream().filter(i->i=="").map(Map.Entry::getValue).collect(Collectors.toList());
         int number = 0;
         int result = 0;
         int sign=1;
